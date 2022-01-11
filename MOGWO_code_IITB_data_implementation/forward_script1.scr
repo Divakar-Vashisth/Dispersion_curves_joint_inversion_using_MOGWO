@@ -1,0 +1,15 @@
+#!/bin/bash
+
+python forward_script_data1.py
+
+rm -f iitb_forward_fund*.surf96
+
+m96 --disp iitb_forward_fund.mod96 \
+        -RC0 11 18 15 plinear \
+        -save iitb_forward_fund.surf96
+		
+python forward_data_read1.py
+
+
+
+
