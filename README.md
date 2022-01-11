@@ -1,4 +1,4 @@
-Joint inversion of Rayleigh wave fundamental and higher order mode phase velocity dispersion curves was performed using Multi-Ojective Grey Wolf Optimiser.
+Joint inversion of Rayleigh wave fundamental and higher order mode phase velocity dispersion curves using Multi-Ojective Grey Wolf Optimiser.
 
 You will need srfpython package (github.com/obsmax/srfpython) for forward modelling (generate dispersion curves) during the inversion process and swprocess package (pypi.org/project/swprocess/) to perform surface wave processing.
 
